@@ -28,3 +28,7 @@ The altered GOL follows a different set of rules
 
 Thus, the cell is more likely to die when alive and more like to live when dead.
 The result is a rather strange maze-like generation system that was unexpected. Not sure why it works the way it does, but it's neat.
+Cells that are stable are white, black, or grey, with the shade determined by it's state's value: (white = alive, black = dead, grey = inbetween)
+Cells that are red are growing
+Cells that are blue are decaying
+The rate of growth and decay can be guite high or quite low depending on circumstances, meaning some cells will remain blue or red for lengthy periods of time. They aren't stable, just slowly unstable.
